@@ -12,3 +12,6 @@ class Position:
         """ make a translation forward (defined by the cap) """
         self.x += math.cos(self.cap) * d
         self.x += math.sin(self.cap) * d
+
+    def to_dict(self):
+        return dict(x=self.x, y=self.y, cap=self.cap)
