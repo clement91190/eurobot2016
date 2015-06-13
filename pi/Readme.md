@@ -10,6 +10,10 @@ Setup network connection : (easy on GUI : startx then wifi configuration)
     pip install ipython
 
 
+
+# Camera settings
+
+
 # touchscreen settings (waveshare)
 Here are the steps that I took to get it working. The screen should start working at step 5 when you do the test.
 
